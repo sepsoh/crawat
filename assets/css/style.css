@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: #eff3ff;
+}
+.wrapper {
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 20px;
+    left: 50%;
+}
+.text-center {
+    text-align: center;
+    font-weight: 600;
+}
+.container {
+    width: 330px;
+    position: relative;
+}
+#card {
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+#card img {
+    display: block;
+    width: 250px;
+    max-height: 250px;
+    position: relative;
+    margin: 20px auto 10px auto;
+    font-size: 18px;
+    aspect-ratio: 150/180;
+}
+.hp {
+    width: 80px;
+    text-align: center;
+    margin-left: auto;
+    padding: 5px 0;
+    border-radius: 40px;
+    background-color: #ffffff;
+    font-weight: 400;
+}
+
+.types {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 15px 0 25px 0;
+}
+.hp span,
+.types span {
+    font-size: 10px;
+    letter-spacing: 0.4px;
+    font-weight: 600;
+}
+.types span {
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+span:hover {
+    opacity: 0.4;
+}
+.stats {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 15px;
+}
+.stats p {
+    color: #404060;
+}
+#next {
+    display: block;
+    padding: 12px 40px;
+    font-size: 16px;
+    position: relative;
+    margin: 30px auto;
+    background-color: #101010;
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
+#next:hover {
+    background-color: #726f6f;
+}
+a {
+    position: relative;
+    display: block;
+    background-color: #0190ff;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 0;
+    border-radius: 5px;
+    color: #ffffff;
+}
+a:hover {
+    background-color: #0059b3;
+}
