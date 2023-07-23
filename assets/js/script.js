@@ -38,7 +38,7 @@ function init(data){
         pointer = 0;
     type.innerHTML = data.result[pointer].type;
     providerName.innerHTML = data.result[pointer].provider + " #"+data.result[pointer].priority;
-    update.innerHTML = Math.ceil((data.response_time - data.result[pointer].time)/60) + " minute ago";
+    update.innerHTML = Math.ceil((data.response_time - data.result[pointer].time)/60) + " minutes ago";
     connect.href = data.result[pointer].data;
     });
 }
