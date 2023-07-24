@@ -1,6 +1,6 @@
 # Crawat - Telegram Tunnel Provider
 
-By **Craw**ling **a**t **T**elegram, Crawat provides Mtproto proxies for you outside of Telegram !
+By **Craw**ling **a**t **T**elegram, Crawat provides MTProto proxies for you outside of Telegram !
 
 ## Run Script
 Just download the script file as zip and place it on your host or web server.
