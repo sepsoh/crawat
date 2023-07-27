@@ -24,6 +24,9 @@ body {
     width: 330px;
     position: relative;
 }
+.row-container {
+    display: flex;
+}
 #card {
     width: 100%;
     padding: 20px;
@@ -50,7 +53,6 @@ body {
     background-color: #ffffff;
     font-weight: 400;
 }
-
 .types {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -89,20 +91,21 @@ span:hover {
 .stats p {
     color: #404060;
 }
-#next {
+.btn {
     display: block;
     padding: 12px 40px;
     font-size: 16px;
     position: relative;
     margin: 30px auto;
-    background-color: #101010;
+    background-color: #06253b;
     color: white;
     border: none;
-    border-radius: 50px;
+    border-radius: 5px;
 }
-#next:hover {
+.btn:hover {
     background-color: #726f6f;
 }
+
 a {
     position: relative;
     display: block;
@@ -115,4 +118,21 @@ a {
 }
 a:hover {
     background-color: #0059b3;
+}
+
+select {
+    padding: 8px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 5px;
+    background-color: rgba(236, 233, 233, 0.86);
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#provider-name-sub{
+    color: #b0b0b0;
+
 }
