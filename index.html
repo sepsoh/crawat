@@ -12,12 +12,14 @@
       <div class="container">
         <div id="card">
             <p class="hp">
-            <span id="info" onclick="window.open('https://github.com/sepsoh/crawat')">Crawat v1.0</span>
+            <span id="info" onclick="window.open('https://github.com/sepsoh/crawat')">Crawat v2.0</span>
             </p>
-            <img src="assets/img/telegram.png" alt="none">
+            <img id="image" src="assets/img/mtproto.png" alt="none">
             <h2 id="provider-name" class="text-center">
-                ...
+                Connecting ...
             </h2>
+            <h4 id="provider-name-sub" class="text-center">
+            </h4>
             <div class="types"></div>
             <div class="stats">
                 <div>
@@ -25,16 +27,19 @@
                 <p id="update">...</p>
                 </div>
                 <div>
-                    <h3>Type</h3>
-                    <p id="type">...</p>
+                    <h4>Type</h4>
+                    <select id="types">
+                    </select>
                 </div>
             </div>
 
         </div>
         <br>
       </div>
-        <a id="connect">Connect</a>
-        <button id="next">Next</button>
-    </div>
+        <a id="connect">...</a>
+        <div class="row-container">
+            <button class="btn" id="next">Next</button>
+        </div>
+        </div>
   </body>
 </html>
