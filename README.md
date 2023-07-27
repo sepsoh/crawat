@@ -6,7 +6,8 @@ By **Craw**ling **a**t **T**elegram, Crawat provides tunnels for you outside of 
 Just download the script file as zip form [release section](https://github.com/sepsoh/crawat/releases) and place it on your host or web server.
 Now open the uploaded file address in your browser and enjoy.
 
-You can also customize the `config.php` file.
+
+You can add Telegram channels to the panel in the `config.php` file. 
 
 # Supported Protocols
   - MTProto & Socks5
