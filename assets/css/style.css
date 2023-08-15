@@ -1,7 +1,13 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('./mui.min.css');
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('../font/poppins.ttf') format('ttf');
+}
 
 * {
   -webkit-box-sizing: border-box;
@@ -16,7 +22,7 @@
   -webkit-user-select: none;
   -ms-user-select: none;
   text-decoration: none !important;
-  font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
 }
 
 :root {
